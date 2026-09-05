@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+flask>=3.0
+
+# Development/test tooling (stdlib unittest is used; no test runner required)
+
+# Optional upgrades (not required to run this pipeline as-is):
+# xgboost        -> swap in for GradientBoostingClassifier for a speed/accuracy bump
+# shap           -> swap in for explain.py for true per-instance SHAP attributions
+# transformers   -> swap in a fine-tuned DistilBERT for the NLP model instead of TF-IDF+LogReg
+# fastapi + uvicorn -> swap in for src/api.py if your team prefers FastAPI over Flask

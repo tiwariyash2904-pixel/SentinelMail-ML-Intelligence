@@ -1,0 +1,12 @@
+From: "Account Security" <support@acme-corp.com>
+To: employee@example.com
+Subject: Urgent: Verify your account immediately
+Date: Tue, 01 Sep 2026 08:00:00 +0000
+Message-ID: <hackathon-demo-001@example.com>
+Authentication-Results: mx.example; spf=fail smtp.mailfrom=acme-corp.com; dkim=fail; dmarc=fail
+Received: from suspicious-host (185.220.101.5) by mx.example with ESMTP; Tue, 01 Sep 2026 08:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Your password will expire in 24 hours. Verify your account immediately.
+Please enter your username and password at http://185.220.101.5/login.

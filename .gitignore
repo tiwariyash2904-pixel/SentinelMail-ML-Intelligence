@@ -1,0 +1,14 @@
+# Python build/cache files
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+
+# Editor / operating-system metadata
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
